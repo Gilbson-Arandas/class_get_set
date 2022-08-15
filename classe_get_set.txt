@@ -1,0 +1,33 @@
+class Calça {
+    constructor(tamanho, preco, cor) {
+        this.tamanho = tamanho;
+        this.preco = preco;
+        this.cor = cor
+    }
+
+    getTamanho() {
+        return this.tamanho;
+    }
+
+    setTamanho(novoTamanho) {
+        this.tamanho = novoTamanho;
+    }
+
+    getPreco() {
+        return this.getPreco;
+    }
+
+    setPreco(novoPreco) {
+        this.preco = novoPreco;
+    }
+
+    getCor() {
+        return this.cor
+    }
+
+    setCor(novaCor) {
+        this.cor = novaCor;
+    }
+
+
+}
